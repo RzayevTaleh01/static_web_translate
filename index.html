@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web Translate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Static Web Translate</h1>
+            <select id="language-select">
+                <option value="az">Azərbaycan</option>
+                <option value="en">English</option>
+            </select>
+        </header>
+        <main>
+            <p data-translate="welcome-message">Xoş gəldiniz!</p>
+            <section class="about">
+                <h2 data-translate="about-heading">Proyekt Haqqında</h2>
+                <p data-translate="about-content">Bu sadə web tətbiqi statik tərcümə dəstəyi təmin edir.</p>
+            </section>
+            <section class="features">
+                <h2 data-translate="features-heading">Xüsusiyyətlər</h2>
+                <ul>
+                    <li data-translate="feature1">Asan istifadə</li>
+                    <li data-translate="feature2">Bir neçə dil dəstəyi</li>
+                    <li data-translate="feature3">Statik məzmun</li>
+                    <li data-translate="feature4">Qısa və sadə kod))</li>
+
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Static Web Translate - Taleh Rzayev</p>
+        </footer>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
